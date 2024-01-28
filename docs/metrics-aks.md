@@ -92,8 +92,7 @@ namespace/demons labeled
 
 # Set this namespace as default.
 $ k config set-context --current --namespace demons
-# Output
-Context "arn:aws:eks:ap-south-1:202142075460:cluster/despicableme" modified
+# It will output your cluster details
 ```
 
 2. Deploy our sample rest service in this namespace.
